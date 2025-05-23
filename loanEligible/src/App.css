@@ -1,0 +1,19 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+form div {
+  margin-bottom: 1rem;
+}
+
+input, button {
+  padding: 0.5rem;
+  font-size: 1rem;
+}

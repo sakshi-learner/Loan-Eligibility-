@@ -1,0 +1,88 @@
+.form-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 25px 30px;
+    background: #f7f7f7;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    font-weight: 500;
+    color: #444;
+  }
+  
+  form input,
+  form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  form input:focus,
+  form select:focus {
+    border-color: #0077cc;
+  }
+  
+  button[type="submit"] {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"] {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #005fa3;
+  }
+  
+  /* 👇 Add this to change color on click */
+  button[type="submit"]:active {
+    background-color: #004a80;
+    transform: scale(0.98); /* thoda dabne ka effect */
+  }
+  
+  
+  h3 {
+    text-align: center;
+    margin-top: 20px;
+    color: #2c7a00;
+  }
+
+  #form {
+    scroll-margin-top: 100px;
+  }
+  
+  
